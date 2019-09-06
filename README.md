@@ -1,6 +1,6 @@
 # Computer Vision Nanodegree 
 
-This repository contains project files for Udacity's Computer Vision Nanodegree program which I enrolled on 24 August, 2019.
+This repository contains project files for Udacity's Computer Vision Nanodegree program which I enrolled on 10 August, 2019.
 
 ## Projects
 
