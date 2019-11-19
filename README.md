@@ -1,4 +1,5 @@
 # Computer Vision Nanodegree 
+[![Udacity Computer Vision Nanodegree](http://tugan0329.bitbucket.io/imgs/github/cvnd.svg)](https://www.udacity.com/course/computer-vision-nanodegree--nd891)
 
 This repository contains project files for Udacity's Computer Vision Nanodegree program which I enrolled on 10 August, 2019.
 
@@ -7,7 +8,7 @@ This repository contains project files for Udacity's Computer Vision Nanodegree 
 ### Facial Keypoint Detection
 >[P1_Facial_Keypoints](https://github.com/nz-is/CVND-Projects/tree/master/P1_Facial_Keypoints)
 
-Use image processing techniques and deep learning techniques to detect faces in an image and find facial keypoints, such as the position of the eyes, nose, and mouth on a face.
+In this project, I build a facial keypoint detection system. The system consists of a face detector that uses Haar Cascades and a Convolutional Neural Network (CNN) that predict the facial keypoints in the detected faces. The facial keypoint detection system takes in any image with faces and predicts the location of 68 distinguishing keypoints on each face.
 
 
 ### Automatic Image Captioning(TODO)
