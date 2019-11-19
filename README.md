@@ -10,11 +10,14 @@ This repository contains project files for Udacity's Computer Vision Nanodegree 
 
 In this project, I build a facial keypoint detection system. The system consists of a face detector that uses Haar Cascades and a Convolutional Neural Network (CNN) that predict the facial keypoints in the detected faces. The facial keypoint detection system takes in any image with faces and predicts the location of 68 distinguishing keypoints on each face.
 
+Some of my output from my Facial Keypoint system:
+
 
 ### Automatic Image Captioning(TODO)
 >[P2_Image_captioning](https://github.com/nz-is/CVND-Projects/tree/master/P2_Image_Captioning)
 
-Combine CNN and RNN knowledge to build a deep learning model that produces captions given an imput image.
+In this project, I design and train a CNN-RNN (Convolutional Neural Network - Recurrent Neural Network) model for automatically generating image captions. The network is trained on the Microsoft Common Objects in COntext (MS COCO) dataset. The image captioning model is displayed below.
+
 
 ### Landmark Detection & Tracking (SLAM) (TODO)
 >[P3_SLAM](https://github.com/nz-is/CVND-Projects/tree/master/P3_SLAM)
