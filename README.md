@@ -13,7 +13,7 @@ In this project, I build a facial keypoint detection system. The system consists
 Some of my output from my Facial Keypoint system:
 <p float="left">
   <img src="images/face-41.png" width="200" />
-  <img src="images/face-42.png" width="200" /> 
+  <img src="images/face-45.png" width="200" /> 
   <img src="images/face-43.png" width="200" />
     <img src="images/face-44.png" width="200" />
 </p>
