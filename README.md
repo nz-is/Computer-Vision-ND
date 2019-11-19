@@ -11,7 +11,15 @@ This repository contains project files for Udacity's Computer Vision Nanodegree 
 In this project, I build a facial keypoint detection system. The system consists of a face detector that uses Haar Cascades and a Convolutional Neural Network (CNN) that predict the facial keypoints in the detected faces. The facial keypoint detection system takes in any image with faces and predicts the location of 68 distinguishing keypoints on each face.
 
 Some of my output from my Facial Keypoint system:
+<p float="left">
+  <img src="images/face-41.png" width="200" />
+  <img src="images/face-42.png" width="200" /> 
+  <img src="images/face-43.png" width="200" />
+    <img src="images/face-44.png" width="200" />
+</p>
 
+**Green points: Ground Truth </br>
+Purple points: Predicted points by my Model**
 
 ### Automatic Image Captioning(TODO)
 >[P2_Image_captioning](https://github.com/nz-is/CVND-Projects/tree/master/P2_Image_Captioning)
