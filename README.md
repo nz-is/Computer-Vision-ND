@@ -26,6 +26,8 @@ Purple points: Predicted points by my Model**
 
 In this project, I design and train a CNN-RNN (Convolutional Neural Network - Recurrent Neural Network) model for automatically generating image captions. The network is trained on the Microsoft Common Objects in COntext (MS COCO) dataset. The image captioning model is displayed below.
 
+![Image Captioning Model](images/cnn_rnn_model.png?raw=true) [Image source](https://arxiv.org/pdf/1411.4555.pdf)
+
 
 ### Landmark Detection & Tracking (SLAM) (TODO)
 >[P3_SLAM](https://github.com/nz-is/CVND-Projects/tree/master/P3_SLAM)
