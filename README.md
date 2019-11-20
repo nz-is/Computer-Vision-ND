@@ -10,7 +10,7 @@ This repository contains project files for Udacity's Computer Vision Nanodegree 
 
 In this project, I build a facial keypoint detection system. The system consists of a face detector that uses Haar Cascades and a Convolutional Neural Network (CNN) that predict the facial keypoints in the detected faces. The facial keypoint detection system takes in any image with faces and predicts the location of 68 distinguishing keypoints on each face.
 
-Some of my output from my Facial Keypoint system:</br>
+Some of my output from my Facial Keypoint Detection system:</br>
 **NaimishNet**
 
 <p float="left">
@@ -21,11 +21,11 @@ Some of my output from my Facial Keypoint system:</br>
 </p>
 
 **ResNet18(w Transfer learning)**
-<p float="left">
-  <img src="images/face-46.png" width="170" />
-  <img src="images/face-47.png" width="180" /> 
-  <img src="images/face-48.png" width="185" />
-    <img src="images/face-49.png" width="180" />
+<p float="center">
+  <img src="images/face-46.png" width="150" />
+  <img src="images/face-47.png" width="160" /> 
+  <img src="images/face-48.png" width="165" />
+    <img src="images/face-49.png" width="160" />
 </p>
 **Green points: Ground Truth </br>
 Purple points: Predicted points by my Model**
