@@ -21,12 +21,13 @@ Some of my output from my Facial Keypoint Detection system:</br>
 </p>
 
 **ResNet18(w Transfer learning)**
-<p float="center">
+<p float="left">
   <img src="images/face-46.png" width="150" />
   <img src="images/face-47.png" width="160" /> 
   <img src="images/face-48.png" width="165" />
     <img src="images/face-49.png" width="160" />
 </p>
+
 **Green points: Ground Truth </br>
 Purple points: Predicted points by my Model**
 
