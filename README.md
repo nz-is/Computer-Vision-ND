@@ -30,7 +30,6 @@ Some of my output from my Facial Keypoint Detection system:</br>
 **Green points: Ground Truth </br>
 Purple points: Predicted points by my Model**
 
-Examples on Video
 ![](images/riho_2_out.gif)
 
 ### Automatic Image Captioning(TODO)
