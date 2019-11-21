@@ -12,7 +12,6 @@ In this project, I build a facial keypoint detection system. The system consists
 
 Some of my output from my Facial Keypoint Detection system:</br>
 **NaimishNet**
-
 <p float="left">
   <img src="images/face-41.png" width="200" />
   <img src="images/face-45.png" width="200" /> 
@@ -30,6 +29,9 @@ Some of my output from my Facial Keypoint Detection system:</br>
 
 **Green points: Ground Truth </br>
 Purple points: Predicted points by my Model**
+
+Examples on Video
+![](images/riho_2_out.gif) ![](images/riho_3_out.gif)
 
 ### Automatic Image Captioning(TODO)
 >[P2_Image_captioning](https://github.com/nz-is/CVND-Projects/tree/master/P2_Image_Captioning)
