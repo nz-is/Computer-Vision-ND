@@ -31,7 +31,10 @@ Some of my output from my Facial Keypoint Detection system:</br>
 Purple points: Predicted points by my Model**
 
 Demo gifs on Facial Keypoint detection on videos
-![](images_gifs/riho_1.gif)
+<p float="left">
+    <img src="images_gifs/riho_1.gif">
+</p>
+
 
 ### Automatic Image Captioning
 >[P2_Image_captioning](https://github.com/nz-is/CVND-Projects/tree/master/P2_Image_Captioning)
