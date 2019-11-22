@@ -32,15 +32,9 @@ Purple points: Predicted points by my Model**
 
 ![](images_gifs/riho_2_out.gif)
 
-### Automatic Image Captioning(TODO)
+### Automatic Image Captioning
 >[P2_Image_captioning](https://github.com/nz-is/CVND-Projects/tree/master/P2_Image_Captioning)
 
 In this project, I design and train a CNN-RNN (Convolutional Neural Network - Recurrent Neural Network) model for automatically generating image captions. The network is trained on the Microsoft Common Objects in COntext (MS COCO) dataset. The image captioning model is displayed below.
 
 ![Image Captioning Model](images_gifs/cnn_rnn_model.png?raw=true) [Image source](https://arxiv.org/pdf/1411.4555.pdf)
-
-
-### Landmark Detection & Tracking (SLAM) (TODO)
->[P3_SLAM](https://github.com/nz-is/CVND-Projects/tree/master/P3_SLAM)
-
-Implement Graph SLAM (Simultaneous Localization and Mapping) for a 2 dimensional world
