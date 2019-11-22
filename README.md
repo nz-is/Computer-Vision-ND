@@ -32,11 +32,14 @@ Purple points: Predicted points by my Model**
 
 Demo gifs on Facial Keypoint detection on videos
 <p float="left">
-    <img src="images_gifs/riho_1.gif">
+    <img src="images_gifs/riho_1.gif"/>
+      <img src="images_gifs/riho_2_out.gif", width="480"/>
+
 </p>
 
-
+---------
 ### Automatic Image Captioning
+
 >[P2_Image_captioning](https://github.com/nz-is/CVND-Projects/tree/master/P2_Image_Captioning)
 
 In this project, I design and train a CNN-RNN (Convolutional Neural Network - Recurrent Neural Network) model for automatically generating image captions. The network is trained on the Microsoft Common Objects in COntext (MS COCO) dataset. The image captioning model is displayed below.
