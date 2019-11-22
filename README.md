@@ -30,7 +30,7 @@ Some of my output from my Facial Keypoint Detection system:</br>
 **Green points: Ground Truth </br>
 Purple points: Predicted points by my Model**
 
-![](images_gifs/riho_2_out.gif)
+![](images_gifs/riho_1.gif)
 
 ### Automatic Image Captioning
 >[P2_Image_captioning](https://github.com/nz-is/CVND-Projects/tree/master/P2_Image_Captioning)
