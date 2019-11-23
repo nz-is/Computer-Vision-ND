@@ -15,7 +15,7 @@ Some of my output from my Facial Keypoint Detection system:</br>
   <img src="../images_gifs/face-41.png" width="200" />
   <img src="../images_gifs/face-45.png" width="200" /> 
   <img src="../images_gifs/face-43.png" width="200" />
-    <img src="images_gifs/face-44.png" width="200" />
+    <img src="../images_gifs/face-44.png" width="200" />
 </p>
 
 **ResNet18(w Transfer learning)**
