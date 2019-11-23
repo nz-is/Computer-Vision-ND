@@ -1,5 +1,4 @@
-### Facial Keypoint Detection
->[P1_Facial_Keypoints](https://github.com/nz-is/CVND-Projects/tree/master/P1_Facial_Keypoints)
+## Facial Keypoint Detection
 
 In this project, I build a facial keypoint detection system. The system consists of a face detector that uses Haar Cascades and a Convolutional Neural Network (CNN) that predict the facial keypoints in the detected faces. The facial keypoint detection system takes in any image with faces and predicts the location of 68 distinguishing keypoints on each face.
 
