@@ -26,9 +26,9 @@ Some of my output from my Facial Keypoint Detection system:</br>
     <img src="../images_gifs/face-49.png" width="160" />
 </p>
 
-**Green points: Ground Truth </br>
-Purple points: Predicted points by my Model**
-### Inference 
+Green points: Ground Truth </br>
+Purple points: Predicted points by my Model
+## Inference 
 #### Usage
 
 ```
@@ -40,8 +40,8 @@ python inference_webcam.py --weights path/to/saved_weights --cam cam_src(DEFAULT
 
 ```
 
-### Some fun stuff
-Demo gifs on Facial Keypoint detection on videos
+### Some fun stuff :heart:
+Demo Gifs on Facial Keypoint detection on videos
 <p float="left">
     <img src="../images_gifs/riho_1.gif"/>
       <img src="../images_gifs/riho_2_out.gif", width="480"/>
