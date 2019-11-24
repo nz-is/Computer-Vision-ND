@@ -33,8 +33,6 @@ Purple points: Predicted points by my Model**
 Demo gifs on Facial Keypoint detection on videos
 <p float="left">
     <img src="images_gifs/riho_1.gif"/>
-      <img src="images_gifs/riho_2_out.gif", width="480"/>
-
 </p>
 
 ---------
@@ -48,8 +46,9 @@ In this project, I design and train a CNN-RNN (Convolutional Neural Network - Re
 
 Some output from my Model
 <p float="left">
-  <img src="images_gifs/P2-46.png" width="200" />
-  <img src="images_gifs/P2-49.png" width="200" /> 
-  <img src="images_gifs/P2-45.png" width="200" />
-    <img src="images_gifs/P2-51.png" width="200" />
+  <img src="images_gifs/P2-46.png" width="400" />
+  <img src="images_gifs/P2-49.png" width="400" /> 
+    <img src="images_gifs/P2-45.png" width="250" />
+    <img src="images_gifs/P2-48.png" width="400" />
+
 </p>
