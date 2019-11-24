@@ -44,11 +44,10 @@ In this project, I design and train a CNN-RNN (Convolutional Neural Network - Re
 
 ![Image Captioning Model](images_gifs/cnn_rnn_model.png?raw=true) [Image source](https://arxiv.org/pdf/1411.4555.pdf)
 
-Some output from my Model
+Some output from my Model after training 4 epochs:
 <p float="left">
   <img src="images_gifs/P2-46.png" width="400" />
-  <img src="images_gifs/P2-52.png" width="400" /> 
+  <img src="images_gifs/P2-52.png" width="380" /> 
     <img src="images_gifs/P2-45.png" width="250" />
     <img src="images_gifs/P2-48.png" width="400" />
-
 </p>
