@@ -23,10 +23,12 @@ class EncoderCNN(nn.Module):
 
 
 class DecoderRNN(nn.Module):
-    def __init__(self,  embed_size, hidden_size, vocab_size, dropout_prob=.2, 
+    def __init__(self,  embed_size, hidden_size, vocab_size, dropout_prob=.5, 
                  num_layers=2, 
                  ):
         super(DecoderRNN, self).__init__()
+        self.n_layers = num_layers
+        self.vocab_size = vocab_size
         self.hidden_size = hidden_size
         self.caption_embeddings = nn.Embedding(vocab_size, embed_size)
         self.drop_prob = dropout_prob
@@ -55,13 +57,33 @@ class DecoderRNN(nn.Module):
         return output
     
     def sample(self, inputs, states=None, max_len=20):
-          " accepts pre-processed image tensor (inputs) and returns predicted sentence (list of tensor ids of length max_len) "
-          pass
-
+        " accepts pre-processed image tensor (inputs) and returns predicted sentence (list of tensor ids of length max_len) "
+        tokens = []
       
+        #Forward prop through remaining states until reach Captions's max_len
+        for ii in range(max_len):
+            output, states = self.lstm(inputs, states)
+            #print(f"Before FC: {output.size()}")
+            output = self.fc(output.squeeze(1))
+            #print(f"After FC: {output.size()}")
+            _, token = output.max(1) #This will return the caption token 
+            tokens.append(token.item())
+
+            #input to the next timestep 
+            inputs = self.caption_embeddings(token) #word2idx
+            inputs = inputs.unsqueeze(1)
+
+        return tokens
+
     def init_weights(self):
         """init for fully connected layer"""
         self.fc.bias.data.fill_(0)
         self.fc.weight.data.uniform_(-1, 1)
+
+    def init_hidden(self):
+        weight = next(self.parameters()).data        
+        return (weight.new(self.n_layers, self.vocab_size, self.hidden_size).zero_(),
+                weight.new(self.n_layers, self.vocab_size, self.hidden_size).zero_())
+        
 
 
