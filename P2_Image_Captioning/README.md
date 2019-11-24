@@ -12,13 +12,15 @@ In this project, I design and train a CNN-RNN (Convolutional Neural Network - Re
 ```
 
 ### To-Dos
+```
 1. Running inference on Videos through feature averaging from the Encoder(CNN) 
 2. Add Attention Mechanism to the architecture 
+```
 
 Some output from my Model after training 4 epochs:
 <p float="left">
-  <img src="images_gifs/P2-46.png" width="400" />
-  <img src="images_gifs/P2-52.png" width="380" /> 
-    <img src="images_gifs/P2-45.png" width="250" />
-    <img src="images_gifs/P2-48.png" width="400" />
+  <img src="../images_gifs/P2-46.png" width="400" />
+  <img src="../images_gifs/P2-52.png" width="380" /> 
+    <img src="../images_gifs/P2-45.png" width="250" />
+    <img src="../images_gifs/P2-48.png" width="400" />
 </p>
