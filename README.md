@@ -47,7 +47,7 @@ In this project, I design and train a CNN-RNN (Convolutional Neural Network - Re
 Some output from my Model
 <p float="left">
   <img src="images_gifs/P2-46.png" width="400" />
-  <img src="images_gifs/P2-49.png" width="400" /> 
+  <img src="images_gifs/P2-52.png" width="400" /> 
     <img src="images_gifs/P2-45.png" width="250" />
     <img src="images_gifs/P2-48.png" width="400" />
 
