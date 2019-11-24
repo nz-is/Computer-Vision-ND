@@ -45,3 +45,11 @@ Demo gifs on Facial Keypoint detection on videos
 In this project, I design and train a CNN-RNN (Convolutional Neural Network - Recurrent Neural Network) model for automatically generating image captions. The network is trained on the Microsoft Common Objects in COntext (MS COCO) dataset. The image captioning model is displayed below.
 
 ![Image Captioning Model](images_gifs/cnn_rnn_model.png?raw=true) [Image source](https://arxiv.org/pdf/1411.4555.pdf)
+
+Some output from my Model
+<p float="left">
+  <img src="images_gifs/P2-46.png" width="200" />
+  <img src="images_gifs/P2-49.png" width="200" /> 
+  <img src="images_gifs/P2-45.png" width="200" />
+    <img src="images_gifs/P2-51.png" width="200" />
+</p>
