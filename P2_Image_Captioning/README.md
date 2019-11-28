@@ -8,7 +8,7 @@ In this project, I design and train a CNN-RNN (Convolutional Neural Network - Re
 ```
 1. Implementation of Model Architecture (CNN-RNN) is at models.py
 2. Training details are covered on notebook (2.)
-3. Examples of running an Inference on images is at (3.)  
+3. Examples of running an Inference on images is at notebook (3.)  
 ```
 
 ### To-Dos
