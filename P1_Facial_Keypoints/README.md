@@ -33,7 +33,7 @@ Purple points: Predicted points by my Model
 
 ```
 #Running inference on image or video
-python inference.py --weights path/to/saved_weights --model (resnet or naimishnet) --img path/to/saved_weights --vid path/to/saved_weights 
+python inference.py --weights path/to/saved_weights --model (resnet or naimishnet) --img path/to/img --vid path/to/vid_file 
 
 #Running inference in Real-time using Webcam
 python inference_cam.py --weights path/to/saved_weights --model (resnet or naimishnet) --cam cam_src(DEFAULT: 0)
